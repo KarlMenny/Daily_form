@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Create your free account">
+	<meta name="author" content="Andreii">
+	<title>Daily Form</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="form">
+		<div class="form__header">
+			<h1 class="form__title">Create your free account</h1>
+			<p class="form__text">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <span class="form__text-part">Log in.</span></p>
+		</div>
+		<form class="form-body" action="#">
+			<div class="form__input-wrapper">
+				<input class="form__field form__field--mod-1 form__field--mod-2" type="text" name="firstname" placeholder="First name" required>
+				<input class="form__field form__field--mod-1" type="text" name="lastname" placeholder="Last name" required>
+			</div>
+			<input class="form__field form__field--mod-3" type="email" name="email" placeholder="Email address" required>
+			<input class="form__field form__field--mod-3" type="password" name="psw" placeholder="Password" minlength="8" maxlength="20" required>
+
+			<button class="form__button" type="submit">Sign up for free</button>
+		</form>
+		<p class="form__text">By clicking on “Sign up for free”, you agree to the <span class="form__text-part">Terms of Service</span> and the <span class="form__text-part">Privacy Policy</span></p>
+	</div>
+	<!-- LiveReload Script -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
