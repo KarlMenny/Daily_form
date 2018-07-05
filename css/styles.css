@@ -96,6 +96,10 @@ body {
 	border: 1px solid transparent;
 }
 
+.form__field:focus {
+	border: 1px solid #ea355a;
+}
+
 .form__field:valid {
 	border: 1px solid #33cc00;
 }
